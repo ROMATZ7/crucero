@@ -1,0 +1,101 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+body {
+    font-family:bold, cursive;
+    background-color: #000000; /* Beige claro */
+    color: #E2E2D2; /* Marrón oscuro */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/agedpaper.png'); /* Textura de pergamino */
+}
+/* Contenedor del acertijo */
+#acertijo-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid #8b5a2b; /* Marrón rústico */
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #E2E2D2;
+}
+
+/* Título del acertijo */
+#acertijo-titulo {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #FAE214;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Texto del acertijo */
+#acertijo-texto {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #3b2f2f;
+}
+
+/* Campo de respuesta */
+#respuesta-input {
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 2px solid #8b5a2b;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #3b2f2f;
+}
+
+/* Botones */
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #99390A;
+    color: #FAF9F8;
+    border: 2px solid ##FAF9F8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #14A12D;
+    color: #fff;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+/* Lista de pistas */
+#pistas-lista {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+#pistas-lista li {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #959191;
+}
+
+/* Tiempo restante */
+#tiempo-restante {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #FF0000;
+}
+
+/* Mensajes */
+#mensaje {
+    font-size: 20px;
+    color: #8b5a2b;
+    margin-top: 15px;
+}
